@@ -1,0 +1,1 @@
+web: gunicorn netfilx.wsgi:application --log-file -
