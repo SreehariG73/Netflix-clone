@@ -116,7 +116,7 @@ def search(request):
         }
         return render(request, 'search.html', context)
     else:
-        return redirect('/')
+        return redirect('index')
 @login_required(login_url='login') 
 def genre(request,pk):
     movie_genre=pk
